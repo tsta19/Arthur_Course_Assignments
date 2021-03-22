@@ -8784,11 +8784,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jakubko\\Desktop\\Car Assignment\\CarCRUD\\CarCRUD\\CarCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\Jakubko\\Desktop\\GitHub Repositories\\Arthur_Course_Assignments\\CarCRUD\\CarCRUD\\CarCRUD.csproj",
       "projectName": "CarCRUD",
-      "projectPath": "C:\\Users\\Jakubko\\Desktop\\Car Assignment\\CarCRUD\\CarCRUD\\CarCRUD.csproj",
+      "projectPath": "C:\\Users\\Jakubko\\Desktop\\GitHub Repositories\\Arthur_Course_Assignments\\CarCRUD\\CarCRUD\\CarCRUD.csproj",
       "packagesPath": "C:\\Users\\Jakubko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jakubko\\Desktop\\Car Assignment\\CarCRUD\\CarCRUD\\obj\\",
+      "outputPath": "C:\\Users\\Jakubko\\Desktop\\GitHub Repositories\\Arthur_Course_Assignments\\CarCRUD\\CarCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jakubko\\AppData\\Roaming\\NuGet\\NuGet.Config",

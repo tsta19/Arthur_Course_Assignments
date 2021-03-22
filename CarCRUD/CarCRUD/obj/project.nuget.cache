@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vfzicC7W7CgMcodEgLJdDBmz3hEBIk7ZgbHTJRUhvqOno1JSHizGdWpx94pplZhCoaRUJyR4VC7ZQ88PDbm2qQ==",
+  "dgSpecHash": "Qle/L90sBBjzY4PnI5/mGdlDYukuCclfp9ttqOs7Csch/riHg/nD0ZlflXUXO3MRyrsIPC0t7g2JMblldlReKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jakubko\\Desktop\\Car Assignment\\CarCRUD\\CarCRUD\\CarCRUD.csproj",
+  "projectFilePath": "C:\\Users\\Jakubko\\Desktop\\GitHub Repositories\\Arthur_Course_Assignments\\CarCRUD\\CarCRUD\\CarCRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jakubko\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jakubko\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

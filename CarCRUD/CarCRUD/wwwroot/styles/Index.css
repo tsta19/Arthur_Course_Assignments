@@ -16,6 +16,7 @@ input[type="text"] {
 body {
     background-color: #1F2739;
     color: #fff;
+    font-size: 15px;
 }
 
 .margin-bottom {
@@ -39,4 +40,8 @@ span{
     border-bottom: 1px white solid;
     padding-top: 3px;
     padding-bottom: 6px;
+}
+.navbar {
+    border-bottom: 2px white solid;
+    margin-botton: 5px;
 }
