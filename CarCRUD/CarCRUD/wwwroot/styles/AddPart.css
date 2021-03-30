@@ -20,7 +20,7 @@ h1 {
     font-weight: 300;
     line-height: 1em;
     text-align: center;
-    color: #510A32;
+    color:crimson;
 }
 
 h2 {
@@ -45,22 +45,22 @@ h2 {
 }
 
 .yellow {
-    color: #FFF842;
+    color: #801336;
 }
 
 .container th h1 {
     font-weight: bold;
     font-size: 1em;
     text-align: left;
-    color: #185875;
+    color: #801336;
 }
 
 .container td {
     font-weight: normal;
     font-size: 1em;
-    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-    -moz-box-shadow: 0 2px 2px -2px #0E1119;
-    box-shadow: 0 2px 2px -2px #0E1119;
+    -webkit-box-shadow: 0 2px 2px -2px #2D142C;
+    -moz-box-shadow: 0 2px 2px -2px #2D142C;
+    box-shadow: 0 2px 2px -2px #2D142C;
 }
 
 .container {
@@ -80,7 +80,7 @@ h2 {
 
     /* Background-color of the odd rows */
     .container tr:nth-child(odd) {
-        background-color: #323C50;
+        background-color: #2D142C;
     }
 
     /* Background-color of the even rows */
@@ -89,7 +89,7 @@ h2 {
     }
 
     .container th {
-        background-color: #1F2739;
+        background-color: #EE4540;
     }
 
     .container td:first-child {
