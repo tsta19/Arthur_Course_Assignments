@@ -16,7 +16,6 @@ input[type="text"] {
 body {
     background-color: #2D142C;
     color: #fff;
-    font-size: 15px;
 }
 
 .margin-bottom {
@@ -40,6 +39,7 @@ span{
     border-bottom: 1px white solid;
     padding-top: 3px;
     padding-bottom: 6px;
+<<<<<<< Updated upstream
     border: 3px solid #C72C41;
     background-color: #510A32;
 }
@@ -65,4 +65,11 @@ span{
 
 .btn-color {
     color: #fff;
+=======
+    justify-content: center;
+    align-content: center;
+}
+.container-fluid {
+    font-size: 15px;
+>>>>>>> Stashed changes
 }
