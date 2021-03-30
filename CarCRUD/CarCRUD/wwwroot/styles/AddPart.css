@@ -20,7 +20,7 @@ h1 {
     font-weight: 300;
     line-height: 1em;
     text-align: center;
-    color: #4DC3FA;
+    color: #510A32;
 }
 
 h2 {
@@ -120,4 +120,7 @@ h2 {
     .container th:nth-child(4) {
         display: none;
     }
+}
+.margin-bottom{
+    margin-bottom: 5px;
 }

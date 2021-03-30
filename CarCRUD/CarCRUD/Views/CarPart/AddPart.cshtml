@@ -7,21 +7,31 @@
     <link rel="stylesheet" type="text/css" href="~/styles/AddPart.css">
 </head>
 <body>
-    <h1>Create new car part</h1>
-    <table class="container">
-        <thead>
-            <tr>
-                <th><h1>Name</h1></th>
-                <th><h1>Price</h1></th>
-                <th><h1>Details</h1></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><input id="Name"></td>
-                <td><input id="Price"></td>
-                <td><input id="Details"></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="row justify-content-center">
+        <h1>Create new car part</h1>
+    </div>
+    <div class="row margin-bottom">
+        <table class="container">
+            <thead>
+                <tr>
+                    <th><h1>Name</h1></th>
+                    <th><h1>Price</h1></th>
+                    <th><h1>Details</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input id="name"></td>
+                    <td><input id="price"></td>
+                    <td><input id="details"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <button class="btn btn-danger" onclick="createCarPart()">Sumbit</button>
+        </div>
+    </div>
 </body>
