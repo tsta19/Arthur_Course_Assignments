@@ -39,13 +39,11 @@ span{
     border-bottom: 1px white solid;
     padding-top: 3px;
     padding-bottom: 6px;
-<<<<<<< Updated upstream
     border: 3px solid #C72C41;
     background-color: #510A32;
 }
 .navbar {
     border-bottom: 2px transparent solid;
-    margin-botton: 5px;
     background-color: #EE4540;
     color: #EE4540;
 }
@@ -65,11 +63,9 @@ span{
 
 .btn-color {
     color: #fff;
-=======
     justify-content: center;
     align-content: center;
 }
 .container-fluid {
     font-size: 15px;
->>>>>>> Stashed changes
 }
