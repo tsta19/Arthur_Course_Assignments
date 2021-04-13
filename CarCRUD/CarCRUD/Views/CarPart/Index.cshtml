@@ -5,73 +5,60 @@
     <title>table</title>
     <script src="~/scripts/Index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="~/styles/Index.css">
 </head>
 <body class="background">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-navbar">
-            <a class="navbar-brand" href="#">Navbar w/ text</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    Navbar text with an inline element
-                </span>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid mt-2">
-        <div class="row justify-content-center">
-            <div class="col-11">
-                <div class="row tableRow">
-                    <div class="col-1">
-                        <span> ID </span>
-                    </div>
-                    <div class="col-6">
-                        <span> Name </span>
-                    </div>
-                    <div class="col-2">
-                        <span> Price </span>
-                    </div>
-                    <div class="col-2">
-                        <span> Actions </span>
-                    </div>
-                </div>
-                @{
-                    foreach (var carPart in Model)
-                    {
-                        <div class="row tableRow">
+    <div class="navigation-bar">
+        <a class="active" href="#"><i class="fa fa-database"></i></a>
+        <a href="#"><i class="fa fa-edit"></i></a>
+    </div>
+
+    <div class="table-container">
+        <div class="table-row-container">
+            <div class="tableRow just mt-2">
+                <div class="row justify-content-center">
+                    <div class="col-11">
+                        <div class="row">
                             <div class="col-1">
-                                <span>@carPart.Id</span>
+                                <span> ID </span>
                             </div>
                             <div class="col-6">
-                                <span>@carPart.Name</span>
+                                <span> Name </span>
                             </div>
                             <div class="col-2">
-                                <span>@carPart.Price</span>
+                                <span> Price </span>
                             </div>
                             <div class="col-2">
-                                <button type="button" class="btn btn-primary">Edit</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
+                                <span> Actions </span>
                             </div>
                         </div>
-                    }
-                }
+                        @{
+                            foreach (var carPart in Model)
+                            {
+                                <div class="row">
+                                    <div class="col-1">
+                                        <span>@carPart.Id</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span>@carPart.Name</span>
+                                    </div>
+                                    <div class="col-2">
+                                        <span>@carPart.Price</span>
+                                    </div>
+                                    <div class="col-2">
+                                        <button type="button" class="btn btn-primary">Edit</button>
+                                        <button type="button" class="btn btn-danger">Delete</button>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
             </div>
         </div>
     </div>

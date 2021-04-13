@@ -35,30 +35,52 @@ span{
     color: #fff;
 }
 
+.table-container {
+    justify-content: center;
+    margin-top: 5em;
+    width: 100%;
+}
+
+.table-row-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tableRow {
     border-bottom: 1px white solid;
     padding-top: 3px;
     padding-bottom: 6px;
-    border: 3px solid #C72C41;
+    border: 1px solid #C72C41;
     background-color: #510A32;
-}
-.navbar {
-    border-bottom: 2px transparent solid;
-    background-color: #EE4540;
-    color: #EE4540;
+    justify-content: center;
+    width: 90%;
+    border-radius: 10px 10px 0 0;
 }
 
-.navbar a {
+.navigation-bar {
+    width: 100%;
+    background-color: #C72C41;
+    overflow: auto;
+}
+
+.navigation-bar a {
     float: left;
     text-align: center;
-    padding: 12px;
+    width: 50%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
     color: white;
-    text-decoration: none;
-    font-size: 17px;
+    font-size: 36px;
 }
 
-.navbar a:hover {
-    background-color: #801336;
+.navigation-bar a:hover {
+    background-color: #510A32;
+}
+
+.active {
+    background-color: #EE4540;
 }
 
 .btn-color {
